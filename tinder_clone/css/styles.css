@@ -1,0 +1,181 @@
+body{
+
+    font-family: 'Montserrat', sans-serif;
+        /* font-family: 'Ubuntu', sans-serif; */
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    font-weight: 800;
+}
+p {
+    color: #8f8f8f;
+}
+
+
+/* Headings section */
+.big-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+        font-size: 3.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+}
+
+/* Title Section */
+#title {
+    background-color: #ff4c68;
+    color: white;
+    
+}
+
+
+
+.container-fluid {
+    padding: 3% 15% 10%;
+
+}
+
+.navbar-brand {
+    font-family:"Ubuntu", sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+    
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+   padding: 0 18px;
+   
+}
+.nav-link {
+    color:white;
+    font-size:1.2rem;
+    font-family:'Monserrat-Light', sans-serif;
+    font-weight:300;
+}
+
+.download-btn {
+    margin:5% 3% 5% 0;
+    
+}  
+
+.title-image{
+    text-align:center;
+    width:20%;
+    transform:rotate(25deg);
+    position:absolute;
+    /* margin-left:200px;
+    padding-top:10px; */
+    left:60%;
+}
+/* Features section */
+.i-color {
+    color:#ef8172;
+    margin:1rem;
+
+}
+
+.i-color:hover{
+    color:#ff4c68;
+}
+
+.feature-box {
+    text-align:center;
+    padding:5%;
+}
+
+#features {
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    
+    
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    
+    text-align:center;
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-image {
+    border-radius:100%;
+    width:10%;
+    margin:20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    text-align:center;
+    padding-bottom:3%;
+}
+
+.press-image {
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding:3% 2%;
+}
+
+@media (max-width:1150px) {
+    #title {
+        text-align:center;
+    }
+    .title-image{
+        width:60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* cta */
+
+#cta {
+    text-align:center;
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    background-color: #ff4c68;
+    color:#fff;
+    padding:7% 15%;
+    
+
+}
+
+.cta-heading {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer Section */
+#footer {
+    padding:7% 15% 0%;
+    text-align: center;
+}

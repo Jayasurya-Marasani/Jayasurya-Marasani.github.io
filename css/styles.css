@@ -1,0 +1,126 @@
+body {
+    background-color: #000;
+    color:#fff;
+}
+/* Title Section */
+.i-color {
+    color:#fff;
+    margin:1rem;
+    font-size:3rem;
+}
+
+.MJ {
+    font-size:3rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.col-icons {
+    text-align:right;
+}
+/* all -links section */
+.links {
+    font-size:1rem;
+}
+
+.submit-form {
+    background-color: red;
+}
+
+
+.red{
+    color:red;
+    }
+.form-area
+{
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+}
+.col {
+    margin:0 15rem 0;
+}
+
+.h3_form {
+    color:black;
+}
+
+.profile_img {
+    width:50%;
+    border-radius:100%;
+    float: center;
+    margin:auto;
+}
+
+.home-info {
+    margin:2rem;
+}
+
+.bio-col {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+@media (max-width:1400px) {
+    .MJ {
+        text-align: left;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+
+    .i-color {
+        font-size: 2rem;
+    }
+
+    .profile_img {
+        width: 70%;
+        border-radius: 100%;
+        float: center;
+        margin: auto;
+    }
+
+    .col-icons {
+        text-align: right;
+    }
+}
+
+@media (max-width:800px) {
+    .bio-col{
+        text-align:center;
+        width:75%;
+        margin:auto;
+    }
+    .name {
+        font-size:2rem;
+    }
+    .MJ {
+        text-align:center;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .col-icons {
+        text-align: center;
+    }
+    .i-color {
+        font-size: 2rem;
+    }
+}
+
+#projects-list {
+    width:90%;
+    margin:auto;
+    background-color: #000;
+    border-color: #000;
+    
+    
+}
+.li-color {
+    background-color:#000;
+    border-color: #000;
+    color:#fff;
+    font-size:1.25rem;
+}
