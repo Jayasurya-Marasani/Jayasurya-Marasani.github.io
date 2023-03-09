@@ -53,18 +53,38 @@ body {
     float: center;
     margin:auto;
 }
-
-/* .home-info {
+/* 
+.home-info {
     margin:2rem;
 } */
-
+#Home {
+    height: 65vh;
+}
 .bio-col {
     width: 50%;
     margin: auto;
     text-align: left;
     line-height: 2;
 }
+.copyright {
+    text-align: center;
+    color: #EAF6F6;
+    font-size: 1rem;
+    padding-top:15px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1.2rem 7%;
 
+}
+
+.hr {
+    color:white;
+    height:4px;
+}
 @media (max-width:1400px) {
     .MJ {
         text-align: left;
