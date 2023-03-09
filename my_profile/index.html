@@ -1,72 +1,114 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Jayasurya Marasani</title>
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-            rel="stylesheet">
-    </head>
-    <body>
-        <div class="top_container">
-            <img class="top_cloud" src="images/cloud.png" width=30% alt="cloud image">
-            <h1>I'm Jayasurya.</h1>
-            <h2 id ="ai_student">An AI student.</h2>
-            <img class="bottom_cloud" src="images/cloud.png" width=30% alt="cloud image">
-            <img class="mountain" src="images/mountain.png" alt="mountain image">
-        </div>
-        <div class="middle-container">
-            <div class="profile">
-                <img id ="profile_image" src="images/photo.jpg" width=20% alt="profile image">
-                <h2>Hello.</h2>
-                <p class="intro">An AI enthusiast ready to learn new technologies, want to enhance my skills and work with togetherness.</p>
-            </div>
-            <hr>
-            <div class="skills">
-                <h2>My Skills.</h2>
-                <div class="skill-row">
-                    <img class="skill_img_1" src="images/c-.png" alt="c++">
-                    <h3>Lorem & Ipsum</h3>
-                    <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus,
-                        erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jayasurya Marasani</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="top_container">
+        <h1>I'm Jayasurya.</h1>
+        <h2 id="ai_student">An AI student.</h2>
+        <img class="mountain" src="images/mountain.png" alt="mountain image">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <div class="row">
+                <div id="profile_image" class="col-lg-6 col-md-12 col-sm-12 profile-col">
+                    <img id="profile_image" src="images/profile.jpg" width=50% alt="profile image">
                 </div>
-                <div class="skill-row">
-                    <img class="skill_img_2" src="images/full-stack.png" alt="full stack web development">
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris.
-                        Curabitur wisi, quisque vel eu, rutrum nam.</p>
+                <div id="profile_image" class="col-lg-6 col-md-12 col-sm-12 profile-col">
+                    <h2>Hello.</h2>
+                    <p class="intro">An AI enthusiast ready to learn new technologies, want to enhance my skills and work with
+                        togetherness.</p>
                 </div>
             </div>
-            <hr>
-            <div class="contact-me">
-                <h2>Get In Touch</h2>
-                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-                <p class="contact_me">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-                <a class="btn" href="mailto:jayamarasani1729@gmail.com">CONTACT ME</a>
+            <!-- <img id="profile_image" src="images/profile.jpg" width=20% alt="profile image">
+            <h2>Hello.</h2>
+            <p class="intro">An AI enthusiast ready to learn new technologies, want to enhance my skills and work with
+                togetherness.</p> -->
+        </div> 
+        <hr>
+        <div class="skills">
+            <h2>My Skills</h2>
+            
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/c-.png" width=30% alt="c++">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/linux.png" width=30% alt="linux">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/python.png" width=30% alt="python">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/mysql.png" width=30% alt="mysql">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/html.png" width=30% alt="html">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/js.png" width=30% alt="JavaScript">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/java.png" width=30% alt="Java">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/android.png" width=30% alt="android">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/css-3.png" width=30% alt="css">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/c-sharp.png" width=30% alt="c-sharp">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/office.png" width=30% alt="office">
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 img">
+                    <img src="images/windows.png" width=30% alt="windows">
+                </div>
             </div>
         </div>
-        
-        
-        <div class="bottom-container">
-            <!-- <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-            <a class="footer-link" href="https://twitter.com/">Twitter</a>
-            <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
-            <div align="center" class="icons-social" style="margin-left: 10px;">
-                <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in/jayasurya-marasani-a6bb82187/">
-                    <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
-                <a style="margin-left: 10px;" target="_blank"
-                    href="https://github.com/Jayasurya-Marasani?tab=overview&from=2022-12-01&to=2022-12-31">
-                    <img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
-                <a style="margin-left: 10px;" target="_blank" href="https://instagram.com/jayasuryamarasani/">
-                    <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
-                <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/JMarasani/">
-                    <img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png"></a>
-            </div>
-            <p class="copyright">© Jayasurya Marasani.</p>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3>.</h3>
+            <p class="contact_me">If you need any help feel free to contact me.</p>
+            <a class="btn" href="mailto:jayamarasani1729@gmail.com">CONTACT ME</a>
         </div>
-    </body>
+    </div>
+    
+    
+    <div class="bottom-container">
+        <!-- <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+                <a class="footer-link" href="https://twitter.com/">Twitter</a>
+                <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+        <div align="center" class="icons-social" style="margin-left: 10px;">
+            <a style="margin-left: 10px;" target="_blank" href="https://www.linkedin.com/in/jayasurya-marasani-a6bb82187/">
+                <img src="https://img.icons8.com/doodle/40/000000/linkedin--v2.png"></a>
+            <a style="margin-left: 10px;" target="_blank"
+                href="https://github.com/Jayasurya-Marasani?tab=overview&from=2022-12-01&to=2022-12-31">
+                <img src="https://img.icons8.com/doodle/40/000000/github--v1.png"></a>
+            <a style="margin-left: 10px;" target="_blank" href="https://instagram.com/jayasuryamarasani/">
+                <img src="https://img.icons8.com/doodle/40/000000/instagram-new--v2.png"></a>
+            <a style="margin-left: 10px;" target="_blank" href="https://twitter.com/JMarasani/">
+                <img src="https://img.icons8.com/doodle/1x/twitter-squared--v2.png"></a>
+        </div>
+        <p class="copyright">© Jayasurya Marasani.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

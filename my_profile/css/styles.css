@@ -57,7 +57,7 @@ hr {
     width: 5%;
     border-color: grey;
     border-width: 5px;
-    margin:100px auto;
+    margin:50px auto;
 }
 /**********************End of Selectors********************************/
 
@@ -123,7 +123,7 @@ hr {
 
 .contact_me {
     width:40%;
-    margin:40px auto 60px;
+    margin:20px auto 60px;
 }
 
 .btn {
@@ -171,5 +171,37 @@ hr {
 #profile_image
 {
     border-radius:100%;
+    text-align:center;
 }
 /*************************End of Id Selectors*****************************/
+
+.img {
+    padding:0;
+    margin-bottom: 25px;
+}
+
+.profile-col {
+    text-align:center;
+}
+
+@media (min-width: 576px) {
+    #profile_image{
+        width:70%;
+    }
+}
+
+@media (min-width: 768px) {
+    #profile_image {
+            width: 70%;
+        }
+}
+@media (min-width: 992px) {
+    #profile_image {
+            width: 50%;
+        }
+}
+@media (min-width: 1200px) {
+    #profile_image {
+            width: 50%;
+        }
+}
