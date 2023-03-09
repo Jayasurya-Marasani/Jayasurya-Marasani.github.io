@@ -69,7 +69,7 @@ hr {
     
 }
 .middle-container{
-    margin:100px 0 100px 0;
+    margin:110px;
 }
 
 .bottom-container{
@@ -94,6 +94,7 @@ hr {
 
 .mountain {
     width:100%;
+    
 }
 
 .skill-row {
@@ -103,7 +104,7 @@ hr {
     line-height: 2;
 }
 
-.skill_img_1 {
+/* .skill_img_1 {
     width:25%;
     float:left;
     margin-right:30px;
@@ -113,12 +114,19 @@ hr {
     width:30%;
     float:right;
     margin-left:30px;
-}
+} */
 
-.intro {
-    width:30%;
+/* .intro {
+    width:70%;
     margin:auto;
    
+} */
+.about-me {
+    display: block;
+    justify-content: center;
+    margin-top:auto;
+    margin-bottom: auto;
+
 }
 
 .contact_me {
@@ -172,6 +180,7 @@ hr {
 {
     border-radius:100%;
     text-align:center;
+    width:70%;
 }
 /*************************End of Id Selectors*****************************/
 
@@ -182,26 +191,74 @@ hr {
 
 .profile-col {
     text-align:center;
+    margin:0;
+
 }
 
-@media (min-width: 576px) {
-    #profile_image{
+/* @media (max-width: 576px) {
+    #profile_image {
+            width: 200%;
+        }
+    
+        .image-div {
+            width: 200%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+
+        }
+    
+        .about-me {
+            display: block;
+            justify-content: center;
+            margin-top: auto;
+            margin-bottom: auto;
+    
+        }
+}
+
+@media (max-width: 768px) {
+    #profile_image {
+            width: 50%;
+        }
+        .image-div {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            align-items: center;
+        }
+        .about-me {
+            display: block;
+            justify-content: center;
+            margin-top: auto;
+            margin-bottom: auto;
+
+        }
+} */
+@media (max-width: 992px) {
+    #profile_image {
+            width: 50%;
+            display: inline-flex;
+            text-align: center;
+            background-color: red;
+        }
+    .image-div {
         width:70%;
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        align-items: center; 
+    }
+    .about-me {
+        width: 100%
     }
 }
-
-@media (min-width: 768px) {
+@media (max-width: 1200px) {
     #profile_image {
             width: 70%;
-        }
-}
-@media (min-width: 992px) {
-    #profile_image {
-            width: 50%;
-        }
-}
-@media (min-width: 1200px) {
-    #profile_image {
-            width: 50%;
         }
 }
