@@ -3,6 +3,7 @@
 *::before {
     box-sizing: border-box;
     font-family: Arial;
+    
 }
 
 body {
@@ -11,15 +12,15 @@ body {
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
-    padding: 1em;
+    padding: 1rem;
     font-size: clamp(.5rem, 2.5vmin, 1.5rem);
 }
 
 .keyboard {
     display: grid;
-    grid-template-columns: repeat(20, minmax(auto, 1.25em));
-    grid-auto-rows: 3em;
-    gap: .25em;
+    grid-template-columns: repeat(20, minmax(auto, 1.25rem));
+    grid-auto-rows: 3rem;
+    gap: .25rem;
     justify-content: center;
 }
 
@@ -37,7 +38,7 @@ body {
     color: white;
     fill: white;
     text-transform: uppercase;
-    border-radius: .25em;
+    border-radius: .25rem;
     cursor: pointer;
     user-select: none;
 }
@@ -47,8 +48,8 @@ body {
 }
 
 .key>svg {
-    width: 1.75em;
-    height: 1.75em;
+    width: 1.75rem;
+    height: 1.75rem;
 }
 
 .key:hover,
@@ -77,16 +78,17 @@ body {
     justify-content: center;
     align-content: center;
     flex-grow: 1;
-    grid-template-columns: repeat(5, 4em);
-    grid-template-rows: repeat(6, 4em);
-    gap: .25em;
-    margin-bottom: 1em;
+    grid-template-columns: repeat(5, 4rem);
+    grid-template-rows: repeat(6, 4rem);
+    gap: .25rem;
+    margin-bottom: 1rem;
+    
 }
 
 .tile {
-    font-size: 2em;
+    font-size: 2rem;
     color: white;
-    border: .05em solid hsl(240, 2%, 23%);
+    border: .05rem solid hsl(240, 2%, 23%);
     text-transform: uppercase;
     font-weight: bold;
     display: flex;
@@ -193,11 +195,11 @@ body {
 .alert {
     pointer-events: none;
     background-color: hsl(204, 7%, 85%);
-    padding: .75em;
-    border-radius: .25em;
+    padding: .75rem;
+    border-radius: .25rem;
     opacity: 1;
     transition: opacity 500ms ease-in-out;
-    margin-bottom: .5em;
+    margin-bottom: .5rem;
 }
 
 .alert:last-child {
