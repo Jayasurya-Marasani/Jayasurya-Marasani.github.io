@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <section class="title">
+        <h1>Tic Tac Toe</h1>
+    </section>
+    <div class="selectSym">
+        <p>Select symbol:</p>
+        <button onClick="selectSym('X')">X</button>
+        <button onClick="selectSym('O')">O</button>
+    </div>
+    <div class="endgame">
+        <div class="text"></div>
+    </div>
+    <div class="hello">
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+    </div>
+    
+    
+    <div class="reset-button">
+        <button id="reset" onClick="startGame()">Reset</button>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
