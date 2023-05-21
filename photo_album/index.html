@@ -16,49 +16,59 @@
     
         <div class="row image">
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/1.png" alt="image">
+                <img class="photo" src="images/1.png" alt="image" data-image-name="1.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/2.png" alt="image">
+                <img class="photo" src="images/2.png" alt="image" data-image-name="2.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/3.png" alt="image">
+                <img class="photo" src="images/3.png" alt="image" data-image-name="3.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/4.png" alt="image">
+                <img class="photo" src="images/4.png" alt="image" data-image-name="4.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/1.png" alt="image">
+                <img class="photo" src="images/1.png" alt="image" data-image-name="1.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/2.png" alt="image">
+                <img class="photo" src="images/2.png" alt="image" data-image-name="2.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/3.png" alt="image">
+                <img class="photo" src="images/3.png" alt="image" data-image-name="3.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/4.png" alt="image">
+                <img class="photo" src="images/4.png" alt="image" data-image-name="4.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/1.png" alt="image">
+                <img class="photo" src="images/1.png" alt="image" data-image-name="1.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/2.png" alt="image">
+                <img class="photo" src="images/2.png" alt="image" data-image-name="2.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/3.png" alt="image">
+                <img class="photo" src="images/3.png" alt="image" data-image-name="3.png">
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img class="photo" src="images/4.png" alt="image">
+                <img class="photo" src="images/4.png" alt="image" data-image-name="4.png">
             </div>   
         </div>
-        <div id="menu">
+        <div id="menu" style="display: none;">
             <ul>
-                <li id="save-image">Save image</li>
-                <li id="copy-image">Copy image</li>
-                <li id="open-image-new-tab">Open image in new tab</li>
+                <li data-operation="checkColor">Check Color</li>
+                <li data-operation="makeColor" data-color="reddish">Make Reddish</li>
+                <li data-operation="makeColor" data-color="blueish">Make Blueish</li>
+                <li data-operation="makeColor" data-color="greenish">Make Greenish</li>
+                <li data-operation="duplicateImage">Duplicate Image</li>
+                <li data-operation="increaseBrightness" data-amount="50">Increase Brightness</li>
+                <li data-operation="reduceResolution" data-scale-factor="2">Reduce Resolution</li>
+                <li data-operation="createAvatar" data-size="100">Create Avatar</li>
+                <li data-operation="convertToGrayscale">Convert to Grayscale</li>
+                <li data-operation="generateQRCode">Generate QR Code</li>
+                <li data-operation="filterImages">Filter Images</li>
+                <li data-operation="createThumbnails">Create Thumbnails</li>
             </ul>
         </div>
+
 
     <script src="index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
