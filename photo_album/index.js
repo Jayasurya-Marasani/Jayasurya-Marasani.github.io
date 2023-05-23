@@ -123,7 +123,6 @@ function filterImages(selectedImage) {
 }
 
 
-// function to convert to grayscale
 function convertToGrayscale(image) {
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
@@ -152,21 +151,21 @@ function convertToGrayscale(image) {
   image.src = canvas.toDataURL();
 }
 
-// Function to reduce the resolution of the image
 function reduceResolution(image) {
   const canvas = document.createElement('canvas');
   const ctx = canvas.getContext('2d');
-  
+
   const newWidth = image.width * 0.5; // Reduce the width by 50%
   const newHeight = image.height * 0.5; // Reduce the height by 50%
-  
+
   canvas.width = newWidth;
   canvas.height = newHeight;
-  
+
   ctx.drawImage(image, 0, 0, newWidth, newHeight); // Draw the image with the reduced dimensions
-  
+  ctx.putImageData(image, 0, 0);
   image.src = canvas.toDataURL();
 }
+
 
 // Function to increase the brightness of the image
 function increaseBrightness(image) {
