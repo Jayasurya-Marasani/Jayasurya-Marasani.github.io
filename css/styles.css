@@ -59,6 +59,7 @@ body {
 } */
 #Home {
     height: 65vh;
+    margin: 2rem;
 }
 .bio-col {
     width: 50%;
