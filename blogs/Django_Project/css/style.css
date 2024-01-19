@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+} 
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 30px;
+}
+
+li{
+    font-weight: bold;
+        /* color: #ffcc99; */
+}
+ code {
+     background-color: black;
+     /* Light gray background for code tags */
+     color: #1efa00;
+     /* Different color for code text */
+     padding: 2px 4px;
+     /* Optional: Add some padding to the code tags */
+     border-radius: 4px;
+     /* Optional: Add rounded corners to the code tags */
+ }
+
+
+img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto; /* Center images horizontally */
+        margin-bottom: 20px; /* Add margin between images */
+    }

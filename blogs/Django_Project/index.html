@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Hosting</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        ul,
+        ol {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        code {
+            background-color:black;
+            padding: 2px 5px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hosting the Django Web Application in Google Cloud Platform</h1>
+
+    <h2>Pre-Requisites</h2>
+    <p>Before you begin this tutorial, you'll need the following:</p>
+    <ul>
+        <li>Google Cloud Platform account</li>
+        <li>Django Project that you have uploaded to your GitHub</li>
+    </ul>
+
+    <h2>Step 1: Create a VM instance</h2>
+    <p>
+        The VM instance can be created by following the below steps:
+    </p>
+    <ol>
+        <li>
+            <a href="https://console.cloud.google.com/" target="_blank">Open the Google Cloud Platform Console</a>
+        </li>
+        <li>
+            <p>Click on the Navigation Menu</p>
+            <img src="css/images/NavigationMenu.png" alt="Navigation Menu">
+        </li>
+        <li>
+            <p>Click on Compute Engine and Enable it if you are using it for the first time</p>
+            <img src="css/images/ComputeEngine.png" alt="Compute Engine">
+            <img src="css/images/EnableComputeEngine.png" alt="click on Enable button">
+        </li>
+        <li>
+            <p>Click on Create Instance</p>
+            <img src="css/images/CreateInstance.png" alt="Create Instance">
+        </li>
+
+        <li>
+            <p>Enter the Name of the Instance</p>
+            <img src="css/images/InstanceName.png" alt="Instance Name">
+        </li>
+        <li>
+            <p>Choose the Region and Zone</p>
+            <img src="css/images/RegionZone.png" alt="Region Zone">
+        </li>
+        <li>
+            <p>Choose the Machine Type</p>
+            <img src="css/images/MachineType.png" alt="Machine Type">
+        </li>
+        <li>
+            <p>Choose the Boot Disk</p>
+            <img src="css/images/BootDisk.png" alt="Boot Disk">
+        </li>
+        <li>
+            <p>Choose the Firewall</p>
+            <img src="css/images/Firewall.png" alt="Firewall">
+        </li>
+        <li>
+            <p>Click on Create</p>
+            <img src="css/images/Create.png" alt="Create">
+        </li>
+    </ol>
+
+    <h2>Step 2: Setting up Essentials for Django Project</h2>
+    <ul>
+        <li>
+            <p>Click on SSH on the VM instance to connect to the machine that you created just now.</p>
+            <img src="css/images/SSH.png" alt="click on SSH">
+        </li>
+        <li>
+            <p>Update the System and install pip3</p>
+            <code>sudo apt update</code>
+            <br>
+            <code>sudo apt install python3-pip</code>
+        </li>
+        <li>
+            <p>Install Django with the help of pip3</p>
+            <code>sudo pip3 install django</code>
+        </li>
+        <li>
+            <p>Also, Install the necessary Python libraries that may be required for your Django Project. To install
+                those packages use the syntax below</p>
+            <code>sudo pip3 install [your package name]</code>
+        </li>
+    </ul>
+
+    <h2>Step 3: Clone your Project from GitHub</h2>
+    <ul>
+        <li>
+            <p>Use the git clone method to clone your project.</p>
+            <code>git clone "your repository https link"</code>
+        </li>
+    </ul>
+
+    <h2>Step 4: Deploy the Django Project</h2>
+    <ul>
+        <li>
+            <p>Go to the directory of the Django project where you can find the manage.py and make it executable</p>
+            <code>chmod +x manage.py</code>
+        </li>
+        <li>
+            <p>Now go to the directory of the project where you have settings.py file and edit the settings.py file as
+                shown below:</p>
+            <code>nano settings.py</code>
+            <img src="css/images/ExternalIP.png" alt="External IP address">
+        </li>
+        <li>
+            <p>Now again go to the manage.py file directory and run the following command:</p>
+            <code>sudo python3 manage.py runserver 0.0.0.0:80</code>
+        </li>
+        <li>
+            <p>Now you can open the following URL:</p>
+            <code>http://YOUR_EXTERNAL_IP</code>
+        </li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>
+        This is how you can Host your Django Application on Google Cloud Platform.
+    </p>
+</body>
+
+</html>
