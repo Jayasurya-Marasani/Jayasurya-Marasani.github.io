@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>New Tab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/search_style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Circular profile image -->
+    <img src="/images/profile.jpg" alt="Profile Image" id="profileImage">
+    <!-- Your name above the search bar -->
+    <div class="name">Jayasurya Marasani</div>
+
+    <div class="search-container">
+      <form action="https://www.google.com/search" method="GET" id="searchForm">
+        <input type="text" name="q" placeholder="Search..." id="searchInput" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <div class="suggestions" id="suggestionsBox">
+        <ul id="suggestionsList"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

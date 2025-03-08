@@ -22,9 +22,7 @@ body {
     text-align:right;
 }
 /* all -links section */
-.links {
-    font-size:1rem;
-}
+
 
 .submit-form {
     background-color: red;
@@ -172,6 +170,7 @@ body {
     margin:auto;
     /* background-color: #000;
     border-color: #000; */
+    padding: 1rem;
     
     
 }
@@ -195,3 +194,4 @@ body {
 .nav-item {
     font-size: large;
 }
+
