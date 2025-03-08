@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
      Background Image Setup
      ----------------------------------------- */
     // Fetch the directory listing from the search_images folder.
-    fetch("/images/search_images/")
+    fetch("images/search_images/")
         .then(response => response.text())
         .then(html => {
             // Create a temporary DOM element to parse the HTML
