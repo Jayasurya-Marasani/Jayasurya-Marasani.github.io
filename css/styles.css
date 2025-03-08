@@ -195,3 +195,30 @@ body {
     font-size: large;
 }
 
+/* Change active nav-link background and text color */
+#all-links .nav-link.active {
+  background-color: #fff; 
+  color: #000;            
+}
+
+#all-links .nav-link.active:hover {
+    background-color: aqua;
+    color: #000;
+}
+/* Change all nav-link text color (non-active) */
+#all-links .nav-link {
+  color: #fff;             /* For example, dark gray */
+}
+
+/* Optional: adjust hover state */
+#all-links .nav-link:hover {
+  color: aqua;
+}
+
+#title_bar .i-color:hover {
+    color: aqua;
+}
+
+.btn:hover {
+    background-color:aqua;
+}
