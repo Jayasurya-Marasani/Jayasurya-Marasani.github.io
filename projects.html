@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>👨‍💻Projects</title>
+    <title>👨‍💻Portfolio</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -13,96 +13,165 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <style>
+        /* Animation styles */
+        .animate {
+            opacity: 0;
+            animation: fadeIn 1s ease-in forwards;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        #skills { animation-delay: 0.2s; }
+        #experience { animation-delay: 0.4s; }
+        #publications { animation-delay: 0.6s; }
+        #projects { animation-delay: 0.8s; }
+
+        /* Dark background for specific sections */
+        #experience, #publications, #projects {
+            background-color: #232020;
+            color: #f0f0f0;
+        }
+        #experience .list-group-item, #publications .list-group-item, #projects .list-group-item {
+            background-color: #232020;
+            color: #f0f0f0;
+            border: none;
+        }
+        #experience h5, #publications h5, #projects h5 {
+            color: #f0f0f0;
+        }
+
+        /* Logo styling */
+        .logo {
+            font-size: 2em;
+            font-weight: bold;
+            color: #f0f0f0; /* Adjust if necessary */
+        }
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 1.5em;
+            }
+        }
+    </style>
 </head>
 
 <body>
+    <!-- Title Bar Section -->
     <section id="title_bar">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 MJ">
-                    <a class="navbar-brand" href="index.html">MJ</a>
+                    <a class="navbar-brand logo" href="index.html">MJ</a>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-icons">
                     <a href="https://x.com/JMarasani" target="_blank"><i class="fa-brands fa-x-twitter i-color"></i></a>
-                    <a href="https://github.com/Jayasurya-Marasani"><i class="fa-brands fa-github  i-color"></i></a>
-                    <a href="https://www.linkedin.com/in/jayasurya-marasani-a6bb82187/"><i class="fa-brands fa-linkedin-in  i-color"></i></a>
-                    <a href="https://www.instagram.com/jayasuryamarasani/"><i class="fa-brands fa-instagram  i-color"></i></a>
-                    <a href="contact.html"><i class="fa-solid fa-paper-plane  i-color"></i></a>
+                    <a href="https://github.com/Jayasurya-Marasani"><i class="fa-brands fa-github i-color"></i></a>
+                    <a href="https://www.linkedin.com/in/jayasurya-marasani-a6bb82187/"><i class="fa-brands fa-linkedin-in i-color"></i></a>
+                    <a href="https://www.instagram.com/jayasuryamarasani/"><i class="fa-brands fa-instagram i-color"></i></a>
+                    <a href="contact.html"><i class="fa-solid fa-paper-plane i-color"></i></a>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Navigation Links Section -->
     <section id="all-links">
         <div class="text-center container links">
-            <div>
-                <ul class="nav nav-pills justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            <ul class="nav nav-pills justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="projects.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="animate my-5">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="d-flex flex-wrap">
+                <span class="badge bg-primary m-1">HTML</span>
+                <span class="badge bg-primary m-1">CSS</span>
+                <span class="badge bg-primary m-1">JavaScript</span>
+                <span class="badge bg-primary m-1">Python</span>
+                <!-- Add your skills here -->
             </div>
         </div>
     </section>
-    <section id="projects-list">
-        <ol class="list-group list-group-numbered">
-            <li class="list-group-item d-flex justify-content-between align-items-start li-color">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold"><a class="navbar-brand" href="photo_album/index.html">Photo Album</a></div>
-                    <p>
-                        This is just a Photo Album which is made using HTML, CSS and bootstrap. This is also responsive to all type of devices. This is a simple project which displays the photos of the user in the form of album. When the user right clicks on the photo, a menu will be displayed which contains the options like increase brightness, duplicate the image, make the image reddish and so on. The user can select the option and the image will be changed according to the option selected by the user. 
-                    </p>
-                </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start li-color">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold"><a class="navbar-brand" href="tic_tac_toe/index.html">Tic Tac Toe</a></div>
-                    <p>
-                        This is just a Tic Tac Toe game which is made using HTML, CSS, JavaScript and bootstrap. This is also responsive to all type of devices. This game is played by two players. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner. This game can also play by one player. In this case the player will play with the computer. The computer will play randomly.
-                    </p>
-                </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start li-color">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold"><a class="navbar-brand" href="wordle_clone/index.html">Wordle Clone</a></div>
-                    <p>
-                        This is just a Wordle Clone which is made using HTML, CSS, JavaScript and bootstrap. This is also responsive to all type of devices. In this project the user can enter the word and the word will be displayed in the form of wordle. The user can experience the wordle game in this project.
-                    </p>
-                </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start li-color">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold"><a class="navbar-brand" href="tinder_clone/index.html">Tinder Clone</a></div>
-                    <p>
-                        This is just Tinder Clone which is made using HTML, CSS and bootstrap. This is also responsive to all type of devices.This project is based on the Tinder website which displays the information about Tindog.
-                    </p>
-                </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start li-color">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold"><a class="navbar-brand" href="Joke_Generator/index.html">Joke Generator</a></div>
-                    <p>
-                        This is just a Jokes Generator which is made using HTML, CSS, JavaScript and Ninja Joke API. This is also responsive to all types of devices. In this project the user can generate the jokes by clicking the button. Also the user can copy the joke.
-                    </p>
-                </div>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-start li-color">
-                <div class="ms-2 me-auto">
-                    <div class="fw-bold"><a class="navbar-brand" href=https://jayasuryamarasani.pythonanywhere.com target="_blank">Image Restoration</a></div>
-                    <p>This project is made using Python, Django, HTML, CSS, JavaScript and Bootstrap. This is also responsive to all types of devices.In this project the user can upload the image and the image will be restored and the user can download the restored image. Also user can visualize the difference between the original image and the restored image using the histogram plot i.e generated by the the backend.
-                    </p>
-                </div>
-            </li>
-        </ol>
+
+    <!-- Work Experience Section -->
+    <section id="experience" class="animate my-5">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h5>Software Engineer at Company XYZ</h5>
+                    <p>Jan 2020 - Dec 2022</p>
+                    <p>Developed web applications using HTML, CSS, and JavaScript. Collaborated with teams to deliver high-quality software solutions.</p>
+                </li>
+                <!-- Add your work experiences here -->
+            </ul>
+        </div>
     </section>
+
+    <!-- Research Publications Section -->
+    <section id="publications" class="animate my-5">
+        <div class="container">
+            <h2>Research Publications</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="link-to-paper">Advanced Techniques in Image Restoration</a>
+                    <p>Authors: J. Marasani, et al. | Published in: International Journal of Computer Vision, 2023</p>
+                </li>
+                <!-- Add your publications here -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="animate my-5">
+        <div class="container">
+            <h2>Projects</h2>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <h5><a href="photo_album/index.html">Photo Album</a></h5>
+                    <p>A responsive photo album made with HTML, CSS, and Bootstrap, featuring image manipulation options like brightness adjustment.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5><a href="tic_tac_toe/index.html">Tic Tac Toe</a></h5>
+                    <p>A classic game built with HTML, CSS, JavaScript, and Bootstrap, supporting two-player and single-player modes.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5><a href="wordle_clone/index.html">Wordle Clone</a></h5>
+                    <p>A Wordle-inspired game for word guessing, built using HTML, CSS, JavaScript, and Bootstrap.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5><a href="tinder_clone/index.html">Tinder Clone</a></h5>
+                    <p>A Tinder-like interface for Tindog, created with HTML, CSS, and Bootstrap.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5><a href="Joke_Generator/index.html">Joke Generator</a></h5>
+                    <p>A joke generator using HTML, CSS, JavaScript, and the Ninja Joke API, with copy functionality.</p>
+                </li>
+                <li class="list-group-item">
+                    <h5><a href="https://jayasuryamarasani.pythonanywhere.com" target="_blank">Image Restoration</a></h5>
+                    <p>A Django-based web app for image restoration with upload, restoration, and download features.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Scripts -->
     <script src="https://kit.fontawesome.com/8da761f548.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
