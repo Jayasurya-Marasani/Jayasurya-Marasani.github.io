@@ -1,0 +1,667 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Length 1559 >>
+stream
+BT /F1 10 Tf 14 TL 46 795 Td
+(JAYASURYA MARASANI) Tj
+T*
+() Tj
+T*
+(jayasuryamarasani@gmail.com) Tj
+T*
+() Tj
+T*
+(linkedin.com/in/jayasuryamarasani) Tj
+T*
+() Tj
+T*
+(github.com/Jayasurya-Marasani) Tj
+T*
+() Tj
+T*
+(ORCID: 0009-0000-6204-9609) Tj
+T*
+() Tj
+T*
+(AI Researcher) Tj
+T*
+() Tj
+T*
+(Jayasurya Marasani) Tj
+T*
+() Tj
+T*
+(I am an AI researcher with experience in machine learning, deep learning and reinforcement) Tj
+T*
+(learning. My work spans computer vision, natural language processing, speech recognition and) Tj
+T*
+(efficient AI for edge devices. I combine Python and C++ expertise with independent research,) Tj
+T*
+(team collaboration and clear technical communication.) Tj
+T*
+() Tj
+T*
+(Education) Tj
+T*
+() Tj
+T*
+(2025 - Present | Milan, Italy) Tj
+T*
+() Tj
+T*
+(Politecnico di Milano) Tj
+T*
+() Tj
+T*
+(Master of Science in Computer Science and Engineering) Tj
+T*
+() Tj
+T*
+(2020 - 2024 | Amritapuri, Kerala) Tj
+T*
+() Tj
+T*
+(Amrita Vishwa Vidyapeetham) Tj
+T*
+() Tj
+T*
+(Bachelor of Technology in Computer Science with Artificial Intelligence) Tj
+T*
+() Tj
+T*
+(CGPA: 9.09) Tj
+T*
+() Tj
+T*
+(Technical competencies) Tj
+T*
+() Tj
+T*
+(Languages) Tj
+T*
+() Tj
+T*
+(Python C++ Java MATLAB) Tj
+T*
+() Tj
+T*
+(Web development) Tj
+T*
+() Tj
+T*
+(HTML CSS JavaScript Django FastAPI React) Tj
+T*
+() Tj
+T*
+(Cloud & DevOps) Tj
+T*
+() Tj
+T*
+(Azure GCP Azure App Service Azure Functions Azure Blob Storage Cosmos DB GitHub Actions CI/CD) Tj
+T*
+() Tj
+T*
+(Machine learning & scientific computing) Tj
+T*
+() Tj
+T*
+(pandas NumPy scikit-learn TensorFlow Keras PyTorch SciPy matplotlib) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
+endobj
+6 0 obj
+<< /Length 1639 >>
+stream
+BT /F1 10 Tf 14 TL 46 795 Td
+() Tj
+T*
+(Reinforcement learning) Tj
+T*
+() Tj
+T*
+(Gym Stable Baselines3) Tj
+T*
+() Tj
+T*
+(Robotics) Tj
+T*
+() Tj
+T*
+(ROS2 Gazebo OpenCV) Tj
+T*
+() Tj
+T*
+(Databases) Tj
+T*
+() Tj
+T*
+(SQL MongoDB Cosmos DB) Tj
+T*
+() Tj
+T*
+(Operating systems & documentation) Tj
+T*
+() Tj
+T*
+(Linux Windows LaTeX) Tj
+T*
+() Tj
+T*
+(Soft skills) Tj
+T*
+() Tj
+T*
+(Critical thinking Leadership Communication Project management) Tj
+T*
+() Tj
+T*
+(Experience) Tj
+T*
+() Tj
+T*
+(Professional roles and research collaborations.) Tj
+T*
+() Tj
+T*
+(Project Manager | Polimi Data Scientists \(PMDS\)) Tj
+T*
+() Tj
+T*
+(Feb 2026 - Present | Milan, Italy) Tj
+T*
+() Tj
+T*
+(Maxillary Canine Impaction) Tj
+T*
+() Tj
+T*
+(Lead team coordination, project execution and model development for the Maxillary Canine) Tj
+T*
+(Impaction project.) Tj
+T*
+() Tj
+T*
+(Design an anatomy-prompted ROI attention network to predict canine impaction from panoramic) Tj
+T*
+(radiographs.) Tj
+T*
+() Tj
+T*
+(Build a multi-task deep learning pipeline combining localization, classification and clinical) Tj
+T*
+(risk scoring.) Tj
+T*
+() Tj
+T*
+(Apply landmark-guided feature fusion to improve interpretability and reduce ambiguity in 2D) Tj
+T*
+(dental imaging.) Tj
+T*
+() Tj
+T*
+(BEA Smart Sleep Band) Tj
+T*
+() Tj
+T*
+(Contribute as a team member to AI-driven sleep monitoring on wearable hardware.) Tj
+T*
+() Tj
+T*
+(Develop a sleep phase detection model for local inference directly on the device.) Tj
+T*
+() Tj
+T*
+(Design for 256 KB RAM and a target model size of at most 50 KB.) Tj
+T*
+() Tj
+T*
+(Optimize memory use and inference efficiency for real-time on-device sleep phase detection.) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 2408 >>
+stream
+BT /F1 10 Tf 14 TL 46 795 Td
+() Tj
+T*
+(Junior Developer - AI & Immersive Technologies | Ophir Studio) Tj
+T*
+() Tj
+T*
+(Oct 2025 - Feb 2026 | Milan, Italy) Tj
+T*
+() Tj
+T*
+(Prototyped and developed generative AI solutions for text, images, video and 3D across) Tj
+T*
+(application domains.) Tj
+T*
+() Tj
+T*
+(Prototyped low-code MVPs for internal products.) Tj
+T*
+() Tj
+T*
+(Developed APIs and microservices to support scalable digital platforms.) Tj
+T*
+() Tj
+T*
+(Implemented CI/CD pipelines, containerization and cloud deployment workflows.) Tj
+T*
+() Tj
+T*
+(Collaborated with creative teams to integrate AI and immersive technologies into art and) Tj
+T*
+(storytelling.) Tj
+T*
+() Tj
+T*
+(Contributed to research and innovation projects with universities and technology partners.) Tj
+T*
+() Tj
+T*
+(Undergraduate Research Assistant | Amrita Vishwa Vidyapeetham) Tj
+T*
+() Tj
+T*
+(Jan 2022 - Aug 2024 | Kerala, India) Tj
+T*
+() Tj
+T*
+(Led a five-person AI research team, contributing to more than 10 journal and conference) Tj
+T*
+(publications in machine learning, deep learning, deep reinforcement learning and computer) Tj
+T*
+(vision.) Tj
+T*
+() Tj
+T*
+(Led a three-person team and an international collaboration with Dr. Dugki Min at Konkuk) Tj
+T*
+(University on DRL algorithms for image categorization. Achieved 97.57% accuracy on MNIST,) Tj
+T*
+(outperforming ML/DL baselines across benchmarks.) Tj
+T*
+() Tj
+T*
+(Implemented a hybrid VGG16-XGBoost gaze estimation model, achieving 98.48% accuracy across) Tj
+T*
+(datasets with varied environmental conditions.) Tj
+T*
+() Tj
+T*
+(Guided a three-person team developing a multi-agent DRL ensemble for autonomous galaxy) Tj
+T*
+(classification, achieving 98.55% accuracy on Galaxy Zoo.) Tj
+T*
+() Tj
+T*
+(Developed a multimodal yoga pose recognition framework combining MoveNet, ResNet50 and) Tj
+T*
+(attention fusion. Introduced the YFA-30 dataset and achieved 96% accuracy.) Tj
+T*
+() Tj
+T*
+(Projects) Tj
+T*
+() Tj
+T*
+(Applied AI systems, from efficient indoor localization to embedding model evaluation.) Tj
+T*
+() Tj
+T*
+(Depthwise Spatio-Temporal Heatmap Network for UWB Radar-Based Indoor Localization) Tj
+T*
+() Tj
+T*
+(Apr 2026 - Aug 2026) Tj
+T*
+() Tj
+T*
+(UWB Radar | TinyML | TensorFlow Lite Micro | Depthwise Separable CNN | INT8 Quantization |) Tj
+T*
+(ESP32-S3) Tj
+T*
+() Tj
+T*
+(Developed a physics-guided TinyML system for device-free 2D localization of up to four people) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
+endobj
+10 0 obj
+<< /Length 2289 >>
+stream
+BT /F1 10 Tf 14 TL 46 795 Td
+(using raw CIR measurements from six UWB radars. Combined static amplitude, motion, breathing-) Tj
+T*
+(sensitive and inter-antenna phase features.) Tj
+T*
+() Tj
+T*
+(Designed a 22K-parameter fully convolutional network with temporal-sensor fusion, four) Tj
+T*
+(depthwise separable residual blocks, and heatmap and person-count prediction heads.) Tj
+T*
+() Tj
+T*
+(Achieved F1 of 0.9430, precision of 0.9068, recall of 0.9821 and mean localization error of) Tj
+T*
+(0.2129 m on locked test windows using the fully quantized INT8 model.) Tj
+T*
+() Tj
+T*
+(Reduced the final TensorFlow Lite model to 42.2 KB with approximately 208.9 KB activation) Tj
+T*
+(memory, within ESP32-S3 constraints of less than 800 KB model storage and 300 KB activation) Tj
+T*
+(SRAM.) Tj
+T*
+() Tj
+T*
+(EmbedMatch: A Platform for Selecting the Best Embedding Model) Tj
+T*
+() Tj
+T*
+(Mar 2026 - Apr 2026) Tj
+T*
+() Tj
+T*
+(Azure | FastAPI | React | Azure Functions | Cosmos DB | Azure OpenAI | ONNX) Tj
+T*
+() Tj
+T*
+(Built an AI benchmarking platform to help users select embedding models for their own datasets.) Tj
+T*
+() Tj
+T*
+(Developed an asynchronous pipeline using Azure Blob Storage, Storage Queue, Azure Functions and) Tj
+T*
+(Cosmos DB.) Tj
+T*
+() Tj
+T*
+(Integrated Azure OpenAI and ONNX-based local embedding models, including MiniLM and BGE.) Tj
+T*
+() Tj
+T*
+(Evaluated models using MRR, Recall@K, relevance score, latency and a weighted composite) Tj
+T*
+(ranking.) Tj
+T*
+() Tj
+T*
+(Image Restoration) Tj
+T*
+() Tj
+T*
+(Django web application) Tj
+T*
+() Tj
+T*
+(Built a Django-based image restoration app with image upload, restoration and download) Tj
+T*
+(features.) Tj
+T*
+() Tj
+T*
+(Research) Tj
+T*
+() Tj
+T*
+(Journal work and conference papers in reinforcement learning, computer vision, speech and) Tj
+T*
+(language.) Tj
+T*
+() Tj
+T*
+(Journals) Tj
+T*
+() Tj
+T*
+(Publication statuses and journal metrics are reported as listed in my resume.) Tj
+T*
+() Tj
+T*
+(Leveraging Multi-Agent Deep Reinforcement Learning for Autonomous Galaxy Image Classification) Tj
+T*
+() Tj
+T*
+(The Egyptian Journal of Remote Sensing and Space Sciences | SCI-E | IF: 4.1) Tj
+T*
+() Tj
+T*
+(Mentor: Dr. Don S) Tj
+T*
+() Tj
+T*
+(Developed DRL agents using DQN, PPO, Recurrent PPO and A2C with customized policies and feature) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+endobj
+12 0 obj
+<< /Length 2015 >>
+stream
+BT /F1 10 Tf 14 TL 46 795 Td
+(extractors for galaxy image classification.) Tj
+T*
+() Tj
+T*
+(Combined agents through weighted majority voting for efficient classification.) Tj
+T*
+() Tj
+T*
+(Enhancing Yoga Pose Recognition Through a Multi-Modal Hybrid Approach with Attention Mechanism) Tj
+T*
+(and Late Fusion on YFA-30) Tj
+T*
+() Tj
+T*
+(International Journal of Yoga | SCI-E | IF: 1.1) Tj
+T*
+() Tj
+T*
+(Mentor: Dr. Don S) Tj
+T*
+() Tj
+T*
+(Combined MoveNet's efficient pose detection with ResNet's feature extraction, attention) Tj
+T*
+(mechanisms and late fusion for robust yoga pose classification.) Tj
+T*
+() Tj
+T*
+(Introduced YFA-30, a benchmark dataset designed for yoga pose recognition.) Tj
+T*
+() Tj
+T*
+(Adaptive Gaze Estimation Through Modified Deep Learning and XGBoost Fusion) Tj
+T*
+() Tj
+T*
+(SN Computer Science | Under review) Tj
+T*
+() Tj
+T*
+(Mentor: Dr. Don S) Tj
+T*
+() Tj
+T*
+(Developed a modified VGG16-XGBoost gaze estimation system for datasets with varied lighting,) Tj
+T*
+(eye appearance and dimensionality.) Tj
+T*
+() Tj
+T*
+(Outperformed the compared deep learning and machine learning models, demonstrating potential) Tj
+T*
+(for real-time gaze estimation.) Tj
+T*
+() Tj
+T*
+(Extended the work titled "Gaze Estimation Using VGG16 Architecture Through XGBoost Classifier".) Tj
+T*
+() Tj
+T*
+(Harnessing Deep Reinforcement Learning Algorithms for Image Categorization: A Multi Algorithm) Tj
+T*
+(Approach) Tj
+T*
+() Tj
+T*
+(Engineering Applications of Artificial Intelligence | SCI-E | IF: 8.0) Tj
+T*
+() Tj
+T*
+(Mentor: Dr. Don S) Tj
+T*
+() Tj
+T*
+(Investigated multiple DRL algorithms for image categorization.) Tj
+T*
+() Tj
+T*
+(Demonstrated the potential of DRL for real-time computer vision challenges.) Tj
+T*
+() Tj
+T*
+(Conferences) Tj
+T*
+() Tj
+T*
+(10 June 2024) Tj
+T*
+() Tj
+T*
+(Speech Recognition Paradigms: A Comparative Evaluation of SpeechBrain, Whisper and Wav2Vec2) Tj
+T*
+(Models) Tj
+T*
+() Tj
+T*
+(9th International Conference for Convergence in Technology \(I2CT\)) Tj
+T*
+() Tj
+T*
+(10 June 2024) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 12 0 R >>
+endobj
+14 0 obj
+<< /Length 1195 >>
+stream
+BT /F1 10 Tf 14 TL 46 795 Td
+(A Study of Landmark-Augmented and Landmark-Free Approaches: Yoga Pose Recognition) Tj
+T*
+() Tj
+T*
+(9th International Conference for Convergence in Technology \(I2CT\)) Tj
+T*
+() Tj
+T*
+(26 February 2024) Tj
+T*
+() Tj
+T*
+(An Empirical Analysis of Topic Categorization Using PaLM, GPT and BERT Models) Tj
+T*
+() Tj
+T*
+(2023 Innovations in Power and Advanced Computing Technologies \(i-PACT\)) Tj
+T*
+() Tj
+T*
+(26 February 2024) Tj
+T*
+() Tj
+T*
+(Analysis of Image Restoration Techniques on Lunar Surface Images) Tj
+T*
+() Tj
+T*
+(2023 Innovations in Power and Advanced Computing Technologies \(i-PACT\)) Tj
+T*
+() Tj
+T*
+(11 December 2023) Tj
+T*
+() Tj
+T*
+(Speaker Identification Using MFCC Feature Extraction: A Comparative Study Using GMM, CNN, RNN,) Tj
+T*
+(KNN and Random Forest Classifier) Tj
+T*
+() Tj
+T*
+(2nd International Conference on Trends in Electrical, Electronics, and Computer Engineering) Tj
+T*
+(\(TEECCON\)) Tj
+T*
+() Tj
+T*
+(23 November 2023) Tj
+T*
+() Tj
+T*
+(Examining Amazon Customer Reviews Using PySpark and AWS: A Data Lake Approach) Tj
+T*
+() Tj
+T*
+(14th International Conference on Computing Communication and Networking Technologies \(ICCCNT\)) Tj
+T*
+() Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 3 0 R >> >> /Contents 14 0 R >>
+endobj
+xref
+0 16
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000148 00000 n 
+0000000218 00000 n 
+0000001829 00000 n 
+0000001955 00000 n 
+0000003646 00000 n 
+0000003772 00000 n 
+0000006232 00000 n 
+0000006358 00000 n 
+0000008700 00000 n 
+0000008828 00000 n 
+0000010896 00000 n 
+0000011024 00000 n 
+0000012272 00000 n 
+trailer
+<< /Size 16 /Root 1 0 R >>
+startxref
+12400
+%%EOF

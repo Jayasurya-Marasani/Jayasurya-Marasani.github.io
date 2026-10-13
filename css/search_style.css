@@ -127,3 +127,10 @@ body {
 .suggestions li:hover {
   background: #f1f1f1;
 }
+
+/* Fit the search page to narrow screens without clipping the search field. */
+*, *::before, *::after { box-sizing: border-box; }
+.container { min-height: 100svh; padding: 24px 16px; }
+#profileImage { width: min(300px, 65vw); height: auto; aspect-ratio: 1; }
+.search-container { min-width: 0; }
+.suggestions li { overflow-wrap: anywhere; }
